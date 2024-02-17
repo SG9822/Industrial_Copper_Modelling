@@ -86,8 +86,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or feedback, please contact Shanmugagouthaman at 
-**Email**: [shanmugagouthaman46@gmail.com]
+For any inquiries or feedback, please contact Shanmugagouthaman at
+
+**Email**: shanmugagouthaman46@gmail.com
 **LinkedIn**: https://www.linkedin.com/in/shanmugagouthaman-kr-068816169/
 
 
