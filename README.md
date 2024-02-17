@@ -65,16 +65,16 @@ To use this project, follow these steps:
 - **Algorithm Assessment**: Evaluate various algorithms and select the most suitable one.
 - **Algorithm Selection**: Choose the Random Forest Classifier for robust performance.
 - **Hyperparameter Tuning with GridSearchCV and Cross-Validation**: To fine-tune our model and mitigate overfitting, we employ GridSearchCV with cross-validation for hyperparameter tuning.
-  This function allows us to systematically explore multiple parameter values and return the optimal set of parameters. {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}
-- **Model Accuracy and Metrics**: With the optimized parameters, our Random Forest Classifier achieves an impressive 96% accuracy, ensuring robust predictions for unseen data. To further evaluate our model, we leverage key metrics such as the confusion matrix, precision, recall, F1-score, AUC, and ROC curve, providing a comprehensive view of its performance.
+  This function allows us to systematically explore multiple parameter values and return the optimal set of parameters. `{'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2}`
+- **Model Accuracy and Metrics**: With the optimized parameters, our Random Forest Classifier achieves an impressive `96%` accuracy, ensuring robust predictions for unseen data. To further evaluate our model, we leverage key metrics such as the confusion matrix, precision, recall, F1-score, AUC, and ROC curve, providing a comprehensive view of its performance.
 - **Model Persistence**: We conclude this phase by saving our well-trained model to a pickle file. This enables us to effortlessly load the model and make predictions on the status whenever needed, streamlining future applications.
 
 ### Regression:
 
 - **Algorithm Assessment**: Evaluate various algorithms and select the most suitable one.
 - **Algorithm Selection**: After thorough evaluation, two contenders, the Extra Trees Regressor and Random Forest Regressor, demonstrate commendable testing accuracy. Upon checking for any overfitting issues in both training and testing, both models exhibit strong performance without overfitting concerns. I choose the Random Forest Regressor for its ability to strike a balance between interpretability and accuracy, ensuring robust performance on unseen data.
-- **Hyperparameter Tuning with GridSearchCV and Cross-Validation**: To fine-tune our model and mitigate overfitting, we employ GridSearchCV with cross-validation for hyperparameter tuning. This function allows us to systematically explore multiple parameter values and return the optimal set of parameters. {'max_depth': 20, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2}.
-- **Model Accuracy and Metrics**:  With the optimized parameters, our Random Forest Regressor achieves an impressive 95.6% accuracy. This level of accuracy ensures robust predictions for unseen data. We further evaluate our model using essential metrics such as mean absolute error, mean squared error, root mean squared error, and the coefficient of determination (R-squared). These metrics provide a comprehensive assessment of our model's performance.
+- **Hyperparameter Tuning with GridSearchCV and Cross-Validation**: To fine-tune our model and mitigate overfitting, we employ GridSearchCV with cross-validation for hyperparameter tuning. This function allows us to systematically explore multiple parameter values and return the optimal set of parameters. `{'max_depth': 20, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 2}`.
+- **Model Accuracy and Metrics**:  With the optimized parameters, our Random Forest Regressor achieves an impressive `95.6%` accuracy. This level of accuracy ensures robust predictions for unseen data. We further evaluate our model using essential metrics such as mean absolute error, mean squared error, root mean squared error, and the coefficient of determination (R-squared). These metrics provide a comprehensive assessment of our model's performance.
 
 ## Contributing
 
